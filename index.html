@@ -8,24 +8,34 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <? php require_once('includes'>
   </head>
   <body>
 
     <header>
-     <nav class="navbar">
-     	<div class="brand-title">Curriculum Vitae</div>
-     	<a href="#" class="toggle-button">
-     		<span class="bar"></span>
-     		<span class="bar"></span>
-     		<span class="bar"></span>
-     	</a>
-     	<div class="navbar-links">
-     		<ul>
-     			<li><a href="">About Me</a></li>
-     			<li><a href="">Contact</a></li>
-     		</ul>
-     	</div>
-     </nav>
+    	    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Curriculum Vitae</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#About Me" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">Contact</a>
+                </li>
+           </ul>
+           <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown
+    </button>
+    <div class="dropdown-menu " aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="document/Letter.zip">Letter & CV</a>
+        </div>
+
+    </nav>
     </header>
 
     <!--showcase-->
@@ -48,7 +58,59 @@
         </div>
       </section>
 
-        <!--education-->
+        <!--Contact-->
+        <section id="Contact">
+        	<div class="container">
+    <div class="form-sections">
+      <!-- Form left -->
+      <div class="Form-left">
+        <h1>Get In Touch</h1>
+        <div class="line"></div> <!--border-bottom line-->
+        <br></<br>
+
+        <!--first Heading -->
+        <h4>ADDRESS</h4>
+         <i class="fa fa-map-marker"></i><span>Wavell Avenue, Black Rock, St. Michael</span>
+         <hr><br><br>
+
+         <!--second Heading -->
+        <h4>PHONE</h4>
+         <i class="fa fa-phone"></i><span>(+1)246 548-4606 or (+1)246 268-9922 </span>
+         <hr><br><br>
+
+       <!--third Heading -->
+        <h4>EMAIL</h4>
+         <i class="fa fa-envelope"></i><span>mrjamariowaterman@gmail.com</span>
+         <hr> <br>
+
+         <!-- social media icons -->
+          <a href="https://www.facebook.com/mr.jamario/" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/246j_mario/?fbclid=IwAR12eYLyyghvU3kGnt32yT-Ju_5wE3tyXbxAXd32vOzLFOfcIna6GkWxR9c" class="fa fa-instagram"></a>
+          <a href="https://www.snapchat.com/add/jaw-20?fbclid=IwAR325zqw6knpGHFNg-gSBSzWwtOT16PV07EkyLtU5kSTPw7e7naeBe8N-gA" class="fa fa-snapchat"></a>
+      </div>
+
+      <!-- form right -->
+      <div class="Form-right">
+        <h1>Contact Me</h1>
+        <div class="line"></div>
+        <!-- form -->
+        <form action="mailto:mr_jamario@hotmail.com" method="get">
+          <h5>NAME</h5>
+          <input type="text"><br><br>
+          <h5>EMAIL</h5>
+          <input type="email"><br><br>
+          <h5>PHONE</h5>
+          <input type="number"><br><br>
+          <h5>YOUR MESSAGE</h5>
+          <textarea name="" id="" cols="50" rows="7"></textarea><br>
+          <button>Send</button>
+        </form>
+      </div>
+    </div>
+    </div>
+        </section>
+
+       <!-- education-->
       <section id="education">
         <div class="container">
           <div class="c mt-5 text-center">
@@ -76,6 +138,5 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script  src="script.js" defer=""></script>
   </body>
 </html>
