@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -60,83 +60,109 @@
 
         <!--Contact-->
         <section id="Contact">
-        	<div class="container">
-    <div class="form-sections">
-      <!-- Form left -->
-      <div class="Form-left">
-        <h1>Get In Touch</h1>
-        <div class="line"></div> <!--border-bottom line-->
-        <br></<br>
+          <div class="container">
+             <div class="form-sections">
 
-        <!--first Heading -->
-        <h4>ADDRESS</h4>
-         <i class="fa fa-map-marker"></i><span>Wavell Avenue, Black Rock, St. Michael</span>
-         <hr><br><br>
+              <!--Form Left-->
 
-         <!--second Heading -->
-        <h4>PHONE</h4>
-         <i class="fa fa-phone"></i><span>(+1)246 548-4606 or (+1)246 268-9922 </span>
-         <hr><br><br>
+              <div class="Form-left col-sm-3 col-md-6">
+                <h1>Get In Touch</h1>
+                <br></br>
 
-       <!--third Heading -->
-        <h4>EMAIL</h4>
-         <i class="fa fa-envelope"></i><span>mrjamariowaterman@gmail.com</span>
-         <hr> <br>
+                 <!--first Heading-->
 
-         <!-- social media icons -->
-          <a href="https://www.facebook.com/mr.jamario/" class="fa fa-facebook"></a>
-          <a href="https://www.instagram.com/246j_mario/?fbclid=IwAR12eYLyyghvU3kGnt32yT-Ju_5wE3tyXbxAXd32vOzLFOfcIna6GkWxR9c" class="fa fa-instagram"></a>
-          <a href="https://www.snapchat.com/add/jaw-20?fbclid=IwAR325zqw6knpGHFNg-gSBSzWwtOT16PV07EkyLtU5kSTPw7e7naeBe8N-gA" class="fa fa-snapchat"></a>
-      </div>
+                <h4>ADDRESS</h4>
+                <i class="fa fa-map-marker"></i><span>Wavell Ave Black Rock St. Michael</span>
+                <hr><br><br>
 
-      <!-- form right -->
-      <div class="Form-right">
-        <h1>Contact Me</h1>
-        <div class="line"></div>
-        <!-- form -->
-        <form action="mailto:mr_jamario@hotmail.com" method="get">
-          <h5>NAME</h5>
-          <input type="text"><br><br>
-          <h5>EMAIL</h5>
-          <input type="email"><br><br>
-          <h5>PHONE</h5>
-          <input type="number"><br><br>
-          <h5>YOUR MESSAGE</h5>
-          <textarea name="" id="" cols="50" rows="7"></textarea><br>
-          <button>Send</button>
-        </form>
-      </div>
-    </div>
-    </div>
+                <!--second Heading-->
+
+                <h4>PHONE</h4>
+                <i class="fa fa-phone"></i><span>(+1)246 548-4606 or (+1)246 268-9922</span><hr><br><br>
+
+                <!--third Heading -->
+
+                <h4>EMAIL</h4>
+                <i class="fa fa-envelope"></i><span>mrjamariowaterman@gmail.com</span>
+                <hr> <br>
+
+                <!-- social media icons -->
+                <a href="https://www.facebook.com/mr.jamario/" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/246j_mario/?fbclid=IwAR12eYLyyghvU3kGnt32yT-Ju_5wE3tyXbxAXd32vOzLFOfcIna6GkWxR9c" class="fa fa-instagram"></a>
+                <a href="https://www.snapchat.com/add/jaw-20?fbclid=IwAR325zqw6knpGHFNg-gSBSzWwtOT16PV07EkyLtU5kSTPw7e7naeBe8N-gA" class="fa fa-snapchat"></a>
+              </div>
+
+              <!-- form right -->
+              <div class=" Form-right col-sm-3 col-md-6">
+                <h1>I Will Get Back To You!</h1>
+                <div class="line"></div>
+
+                <!--form-->
+                <form id="my_form" onsubmit="submitForm(); return false;">
+                  <h5>NAME</h5>
+                  <input id="n" placeholder="Name" required type="text"><br>
+                  <h5>Email</h5>
+                  <input id="e" placeholder="Email Address" type="email" required><br>
+                  <h5>Your Message</h5>
+                  <textarea id="m" placeholder="Wirte your message here" cols="50" rows="10" required>
+                  </textarea><br>
+                  <input id="mybtn" type="submit" value="Submit Form"> <span id="status">
+                </form>
+              </div>
+             </div>
+          </div>
         </section>
+        
 
        <!-- education-->
-      <section id="education">
-        <div class="container">
-          <div class="c mt-5 text-center">
-          	<ul>
-          		<li>Samuel Jackman Prescod Institute of Technology</li>
-          		<li>Frederick Smith Secondary School</li>
-          		<li>Cuthbert Moore Primary School</li>
-          	</ul>
-          </div>
-          <div class="list text-center">
-          	<ul>
-          		<li>2016-2018</li>
-          		<li>2007-2014</li>
-          	</ul>
-          </div>
-          <div class="list image-right">
-          	
-          </div>
-          </div>
+      <section id="plx2">
+
+        <!-- Swiper -->
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+    </div>
+  </div>
+
       </section>
+
      <!--Qualifications-->
+
+     <section id="qualifications">
+       
+     </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+     function _(id){ return document.getElementById(id); }
+function submitForm(){
+  _("mybtn").disabled = true;
+  _("status").innerHTML = 'please wait ...';
+  var formdata = new FormData();
+  formdata.append( "n", _("n").value );
+  formdata.append( "e", _("e").value );
+  formdata.append( "m", _("m").value );
+  var ajax = new XMLHttpRequest();
+  ajax.open( "POST", "contact_form.php" );
+  ajax.onreadystatechange = function() {
+    if(ajax.readyState == 4 && ajax.status == 200) {
+      if(ajax.responseText == "success"){
+        _("my_form").innerHTML = '<h2>Thanks '+_("n").value+', your message has been sent.</h2>';
+      } else {
+        _("status").innerHTML = ajax.responseText;
+        _("mybtn").disabled = false;
+      }
+    }
+  }
+  ajax.send( formdata );
+}
+    </script>
   </body>
 </html>
